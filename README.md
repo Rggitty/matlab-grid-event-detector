@@ -11,9 +11,13 @@ Detects power quality events (voltage sag, swell, and transient spikes) from sim
 ## How to Run
 Open MATLAB in the repo folder and run:
 
-```matlab
-run("src/main.m")
+  matlab
+  run("src/main.m")
+
 
 or in Git Bash
 
-matlab -batch "run('src/main.m')"
+  matlab -batch "run('src/main.m')"
+
+## Ignore
+You can ignore the event_log.csv file in results and just look at the plots.
